@@ -263,7 +263,7 @@ class DataOrganizer:
 
 if __name__ == "__main__":
     # Create a Data object
-    data = DataOrganizer('Titanic.csv', 'Survived')
+    data = DataOrganizer('data/Titanic.csv', 'Survived')
     data.load_data()
     data.clean_data()
     data.set_data_type()
